@@ -75,6 +75,9 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
   * [Generators](#generators)
   * [Full Text Search](#full-text-search)
   * [SDK](#sdk)
+  * [ORM](#orm)
+  * [WebSockets](#websockets)
+  * [Generative AI](#generative-ai) 
   * [Misc](#misc)
 * [Worth Reading](#worth-reading)
 * [Other Awesome Lists](#other-awesome-lists)
@@ -96,6 +99,7 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [Duo](https://github.com/duojs/duo) - Next-generation package manager that blends the best ideas from Component, Browserify and Go to make organizing and writing front-end code quick and painless.
 * [yarn](https://yarnpkg.com/) - Fast, reliable, and secure dependency management.
 * [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.
+* [bun](https://bun.sh/) - Bun is a fast JavaScript all-in-one toolkit.
 
 ## Component Management
 
@@ -130,6 +134,7 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [FuseBox](https://github.com/fuse-box/fuse-box) - A bundler that does it right
 * [Snowpack](https://www.snowpack.dev/) - A lightning-fast frontend build tool, designed for the modern web.
 * [bundle](https://bundle.js.org) - A quick online npm package size checker.
+* [Vite](https://vite.dev/) - Next Generation Frontend Tooling.
 
 # Minimizers
 
@@ -143,6 +148,8 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [Hegel](https://hegel.js.org/) -  A static type checker for JavaScript with a bias on type inference an strong type system.
 * [TypL](https://github.com/getify/TypL) - the JavaScript Type Linter with a bias on type inference.
 * [Hindley Milner Definitions](https://github.com/xodio/hm-def) - runtime type checking for JavaScript functions using Haskell-alike Hindley Milner type signatures.
+* [Zod](https://github.com/colinhacks/zod) - TypeScript-first schema validation with built-in static type inference.
+* [Yup](https://github.com/jquense/yup) - JavaScript schema builder and validator.
 
 ## Testing Frameworks
 
@@ -160,6 +167,7 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [ava](https://github.com/avajs/ava) - 🚀 Futuristic JavaScript test runner
 * [Cypress](https://www.cypress.io/) - Complete end-to-end testing framework for anything that runs in a browser and beyond.
 * [WebdriverI/O](https://webdriver.io/) - Next-gen browser and mobile automation test framework for Node.js
+* [Suites](https://suites.dev) - A unit-testing framework for backends working with inversion of control and dependency injection
 
 ### Assertion
 
@@ -169,6 +177,9 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [Sinon.JS](https://github.com/sinonjs/sinon) - Test spies, stubs, and mocks for JavaScript.
 * [expect.js](https://github.com/Automattic/expect.js) - Minimalistic BDD-style assertions for Node.JS and the browser.
 * [proxyquire](https://github.com/thlorenz/proxyquire) - Stub nodejs's require.
+* [Supertest](https://github.com/visionmedia/supertest) - A popular HTTP assertion library for testing REST APIs, often used with other testing frameworks like Mocha or Jest
+* [Pocket Mocker](https://github.com/tianchangNorth/pocket-mocker) - In-browser visual network mocking tool, supports fetch/XHR interception.
+* [interface-forge](https://github.com/Goldziher/interface-forge) - Graceful, type-safe mock-data generation for TypeScript, with factories and Faker integration.
 
 ### Coverage
 
@@ -205,6 +216,8 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [Pre-evaluate code at buildtime](https://github.com/kentcdodds/preval.macro) - Pre-evaluate your front end javascript code at build-time
 * [JS-Beautifier](https://github.com/beautify-web/js-beautify) - Npm cli and library to format JS code.
 * [husky](https://github.com/typicode/husky) - Prevents bad git commit, git push and more.
+* [Rev-dep](https://github.com/jayu/rev-dep) - Trace imports, identify circular dependencies, find unused code, clean node modules — all from a blazing-fast CLI.
+* [fallow](https://github.com/fallow-rs/fallow) - Finds dead code, duplication, circular dependencies, and complexity hotspots in JavaScript and TypeScript projects.
 
 ## MVC Frameworks and Libraries
 
@@ -253,6 +266,7 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [Million](https://github.com/aidenybai/million) - <1kb compiler-focused virtual DOM. It's fast!
 * [Whatsup](https://github.com/whatsup/whatsup) - A frontend framework for chillout-mode development 🥤. JSX components on generators, fast mobx-like state management and exclusive cssx style system.
 * [Remult](https://github.com/remult/remult) - A CRUD framework for full-stack TypeScript.
+* [sprae](https://github.com/dy/sprae) - Reactive HTML attributes with no build step, signals-based, with a CSP-safe build.
 
 ## Node-Powered CMS Frameworks
 
@@ -286,6 +300,7 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [xtemplate](https://github.com/xtemplate/xtemplate) - eXtensible Template Engine lib for node and the browser
 * [marko](https://github.com/marko-js/marko) - A fast, lightweight, HTML-based templating engine for Node.js and the browser with async, streaming, custom tags and CommonJS modules as compiled output.
 * [swig](https://github.com/paularmstrong/swig) - (Archived) A simple, powerful, and extendable Node.js and browser-based JavaScript template engine.
+* [hmpl](https://hmpl-lang.dev) - Server-oriented customizable templating for JavaScript.
 
 ## Game Engines
 * [A-Frame](https://aframe.io) - Make WebVR.
@@ -352,6 +367,8 @@ A collection of awesome browser-side [JavaScript](https://developer.mozilla.org/
 * [cola.js](https://ialab.it.monash.edu/webcola/) - library for arranging your HTML5 documents and diagrams using constraint-based optimization techniques
 * [jointjs](https://github.com/clientIO/joint) - Diagramming library to create static diagrams or fully interactive diagramming tools.
 * [vizzu](https://github.com/vizzuhq/vizzu-lib) - Library for animated data visualizations and data stories.
+* [G6](https://github.com/antvis/g6) - A graph visualization engine.
+* [Infographic](https://github.com/antvis/Infographic) - A next-generation declarative infographic visualization engine.
 
 There're also some great commercial libraries, like [amchart](https://www.amcharts.com/), [anychart](https://www.anychart.com/), [plotly](https://plotly.com/), and [lightning chart](https://www.arction.com/lightningchart-js/).
 
@@ -420,6 +437,7 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 * [diff2html](https://github.com/rtfpessoa/diff2html) - Git diff output parser and pretty HTML generator.
 * [jsPDF](https://github.com/MrRio/jsPDF) - JavaScript PDF generation.
 * [PDF.js](https://github.com/mozilla/pdf.js) - PDF Reader in JavaScript.
+* [File Viewer](https://github.com/flyfish-dev/file-viewer) - Browser-native components for previewing files without server-side conversion.
 
 ## Functional Programming
 *Functional programming libraries to extend JavaScript’s capabilities.*
@@ -447,6 +465,7 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 * [MobX](https://github.com/mobxjs/mobx) - TFRP library for simple, scalable state management.
 * [Cycle.js](https://cycle.js.org) - A functional and reactive JavaScript library for cleaner code.
 * [concent](https://github.com/concentjs/concent) - Definitely the ❤️ simplest but ⚡️ strongest state management for react, it is predictable、progressive and efficient.
+* [stunk](https://github.com/I-am-abdulazeez/stunk) A framework-agnostic state management library that keeps your app’s state clean and simple. It uses a fine-grained state model, breaking state into independent, manageable chunks.
 
 ## Data Structure
 *Data structure libraries to build a more sophisticated application.*
@@ -540,6 +559,7 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 * [PleaseJS](https://github.com/Fooidge/PleaseJS) - JavaScript Library for creating random pleasing colors and color schemes.
 * [TinyColor](https://github.com/bgrins/TinyColor) - Fast, small color manipulation and conversion for JavaScript.
 * [Vibrant.js](https://github.com/jariz/vibrant.js/) - Extract prominent colors from an image.
+* [color-space](https://github.com/colorjs/color-space) - Conversions between 162 color spaces (OKLCH, CAM16, Munsell, camera logs) with cited references.
 
 ## I18n And L10n
 *Localization (l10n) and internationalization (i18n) JavaScript libraries.*
@@ -569,6 +589,7 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 * [crossroads](https://github.com/millermedeiros/crossroads.js) - JavaScript Routes.
 * [davis.js](https://github.com/olivernn/davis.js) - RESTful degradable JavaScript routing using pushState.
 * [navaid](https://github.com/lukeed/navaid) - A navigation aid (aka, router) for the browser in 850 bytes~!
+* [speedy-router](https://github.com/anonrig/router) - The TanStack Router API rebuilt for faster navigations and SSR.
 
 ## Security
 
@@ -576,6 +597,7 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 * [js-xss](https://github.com/leizongmin/js-xss) - Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist.
 * [xss-filters](https://github.com/yahoo/xss-filters) - Secure XSS Filters by Yahoo.
 * [sanitize-html](https://github.com/apostrophecms/sanitize-html) - sanitize-html provides a simple HTML sanitizer with a clear API.
+* [pompelmi](https://github.com/pompelmi/pompelmi) - Fast file-upload malware scanning for Node.js.
 
 ## Log
 
@@ -590,6 +612,8 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 ## RegExp
 * [RegEx101](https://regex101.com/#javascript) - Online regex tester and debugger for JavaScript. Also supports Python, PHP and PCRE.
 * [RegExr](https://regexr.com/) - HTML/JS based tool for creating, testing, and learning about Regular Expressions.
+* [Regulex](https://jex.im/regulex/) - JavaScript Regular Expression Parser & Visualizer.
+* [Regex-Vis](https://regex-vis.com/) - Regex visualizer & editor.
 
 ## Voice Command
 
@@ -615,6 +639,7 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 ## Streaming
 
 * [Tailor](https://github.com/zalando/tailor) - Streaming layout service for front-end microservices, inspired by Facebook's BigPipe.
+* [Markstream](https://github.com/Simon-He95/markstream-vue) - Streaming Markdown renderer for AI chat interfaces across Vue, React, Svelte and Angular.
 
 ## Vision Detection
 
@@ -664,6 +689,7 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 
 * [Highlight.js](https://github.com/isagalaev/highlight.js) - JavaScript syntax highlighter.
 * [PrismJS](https://github.com/PrismJS/prism) - Lightweight, robust, elegant syntax highlighting.
+* [shiki](https://github.com/shikijs/shiki) - Code highlighter powered by VS Code TextMate grammars. Accurate, themeable, works in Node or browser, great for JS and TS.
 
 ## Loading Status
 *Libraries for indicate load status.*
@@ -1005,18 +1031,45 @@ There're also some great commercial libraries, like [amchart](https://www.amchar
 * [Docusaurus](https://github.com/facebook/docusaurus) - React-based static site generator by Facebook, ideal for content-centric websites.
 * [Next.js](https://github.com/vercel/next.js) - React powered static site generator, and they say "All the tools you need to make the Web. Faster.".
 * [Lume](https://github.com/lumeland/lume) - Static site generator for Deno.
+* [Astro](https://github.com/withastro/astro) - The web framework for content-driven websites.
+* [Nuxt](https://github.com/nuxt/nuxt) - The Intuitive Vue Framework.
 
 ## SDK
 
 * [javascript-sdk-design](https://github.com/huei90/javascript-sdk-design) - JavaScript SDK design guide extracted from work and personal experience.
 * [Spotify SDK](https://github.com/loverajoel/spotify-sdk) - Entity oriented SDK to work with the Spotify Web API.
 * [Square Node.js SDK](https://github.com/square/connect-nodejs-sdk/) - JavaScript client library for payments and other Square APIs.
+* [OpenAI SDK](https://github.com/openai/openai-node) - Official JavaScript / TypeScript library for the OpenAI API.
+* [Stripe Node.js SDK](https://github.com/stripe/stripe-node) - Stripe Node.js SDK lets you integrate payments, subscriptions, and billing into your JavaScript/TypeScript apps.
 
 ## Full Text Search
 
 * [lunr](https://github.com/olivernn/lunr.js) - Library for use in the browser and It indexes JSON documents and provides a simple search interface for retrieving documents that best match text queries.
 * [flexsearch](https://github.com/nextapps-de/flexsearch) - It is a Next-Generation full text search library for Browser and Node.js.
 * [Elasticlunr](https://github.com/weixsong/elasticlunr.js) - This library is based on lunr.js, but more flexible and customized.
+  
+## ORM
+
+* [Prisma](https://github.com/prisma/prisma) Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB.
+* [Sequelize](https://github.com/sequelize/sequelize) Feature-rich ORM for modern Node.js and TypeScript | PostgreSQL, MySQL, MariaDB, SQLite, MS SQL Server, Snowflake, Oracle DB...
+* [Mongoose](https://github.com/Automattic/mongoose) MongoDB object modeling designed to work in an asynchronous environment.
+* [TypeORM](https://github.com/typeorm/typeorm) ORM for TypeScript and JavaScript, Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.
+* [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) Headless TypeScript ORM with a head. Runs on Node, Bun and Deno.
+* [Kysely](https://github.com/kysely-org/kysely) A type-safe typescript SQL query builder.
+* [Knex](https://github.com/knex/knex) A query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.
+* [MikroORM](https://github.com/mikro-orm/mikro-orm) TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns.
+* [Objection.js](https://github.com/Vincit/objection.js) A SQL-friendly ORM for Node.js built on top of Knex.js, with powerful relational support.
+
+
+## WebSockets
+
+* [Socket.io](https://github.com/socketio/socket.io) The most widely used WebSocket library for real-time applications. Supports auto-reconnection, rooms, and fallbacks (e.g., polling).
+* [ws](https://github.com/websockets/ws) Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js.
+
+## Generative AI
+
+* [KaibanJS](https://github.com/kaiban-ai/KaibanJS) - KaibanJS is an open-source framework browser-compatibility of orchestration of multi-agent ai systems using a Kanban-inspired architecture.
+* [liter-llm](https://github.com/xberg-io/liter-llm) - Universal LLM API client for 142+ providers with a unified interface and streaming, via a JavaScript/TypeScript binding over a Rust core.
 
 ## Misc
 
@@ -1046,6 +1099,8 @@ https://listjs.com
 * [Peg.js](https://github.com/pegjs/pegjs) - A simple parser generator for JavaScript that produces fast parsers with excellent error reporting. Usable from your browser, from the command line, or via JavaScript API.
 * [lune](https://github.com/ryanseys/lune) - Library to calculate the phases of the moon accurately.
 * [jsemu](https://github.com/fcambus/jsemu) - A list of emulators written in the JavaScript programming language.
+* [rrweb](https://github.com/rrweb-io/rrweb) - Records the DOM and user interactions as a typed JSON event stream and replays them pixel-perfect.
+* [enum-plus](https://github.com/shijistar/enum-plus) - A drop-in enhancement for native TypeScript enums, adding display text, internationalization and full type safety.
 
 # Worth Reading
  
@@ -1059,6 +1114,7 @@ https://listjs.com
 * [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) - Pragmatic, balanced FP in JavaScript.
 * [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript) - Clean Code concepts adapted for JavaScript.
 * [Roadmap.sh JavaScript Roadmap](https://roadmap.sh/javascript) - Learn JavaScript from a community sourced learning roadmap.
+* [JavaScript Info](https://javascript.info) - Modern JavaScript tutorial with simple explanations.
 
 
 # Other Awesome Lists
